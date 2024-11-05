@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'inter', 'sans serif';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bgYellow {
+    background-color: #F3C827;
+}
+
+.container {
+    /*background-color: #c52626; */
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    background-color: #F66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+h3 {
+    width: 100%;
+}
+
+/* HEADER */ 
+
+header {
+    padding:  15px;
+}
+
+.navHeader {
+    /*background-color: blueviolet;*/
+    width: 50%;
+}
+
+.panier {
+    color:#F3C827;
+    font-size: 30px;
+}
+
+/* HERO */ 
+
+.hero {
+    height: 100vh;
+}
+
+.hero h2 {
+    font-family: "WindSong", cursive;
+    font-size: 130px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+/* SECTION ENGAGEMENT */ 
+.engagement p {
+    width: 50%;
+}
