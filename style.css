@@ -88,3 +88,18 @@ h1 {
     font-size: 32px;
 }
 
+.w100 {
+    width: 100%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w80 {
+    width: 80%;
+}
